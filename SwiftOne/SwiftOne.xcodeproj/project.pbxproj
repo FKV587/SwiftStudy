@@ -300,6 +300,7 @@
 				2FDC61E31DD1A42800E49219 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
