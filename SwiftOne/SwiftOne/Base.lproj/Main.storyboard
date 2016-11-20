@@ -41,7 +41,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tGI-gX-eUQ">
-                                <rect key="frame" x="187.5" y="148" width="187.5" height="519"/>
+                                <rect key="frame" x="187.5" y="148" width="187" height="519"/>
                                 <color key="backgroundColor" red="0.0" green="0.41176470590000003" blue="0.99607843139999996" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="PAUSE">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -50,27 +50,17 @@
                                     <action selector="pauseAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="42i-aO-tmq"/>
                                 </connections>
                             </button>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Cxa-rJ-xtJ">
-                                <rect key="frame" x="187.5" y="108" width="0.0" height="559"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="0.10000000000000001" id="nKn-lS-861"/>
-                                </constraints>
-                            </view>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="tGI-gX-eUQ" firstAttribute="leading" secondItem="Cxa-rJ-xtJ" secondAttribute="trailing" id="ARa-3f-33a"/>
                             <constraint firstItem="ca9-41-jsP" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Bou-Pb-9Vm"/>
+                            <constraint firstItem="tGI-gX-eUQ" firstAttribute="width" secondItem="WNB-6i-cRk" secondAttribute="width" id="LxW-r3-qE3"/>
+                            <constraint firstItem="tGI-gX-eUQ" firstAttribute="leading" secondItem="WNB-6i-cRk" secondAttribute="trailing" id="W5x-fv-T0v"/>
                             <constraint firstItem="ca9-41-jsP" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="44" id="X6X-lP-8St"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="WNB-6i-cRk" secondAttribute="bottom" id="Ylf-D4-S33"/>
-                            <constraint firstItem="Cxa-rJ-xtJ" firstAttribute="top" secondItem="ca9-41-jsP" secondAttribute="bottom" id="bdf-gJ-Vpq"/>
-                            <constraint firstItem="Cxa-rJ-xtJ" firstAttribute="leading" secondItem="WNB-6i-cRk" secondAttribute="trailing" id="c6n-7J-7Vr"/>
                             <constraint firstAttribute="trailing" secondItem="tGI-gX-eUQ" secondAttribute="trailing" id="f2B-0y-g2q"/>
-                            <constraint firstItem="Cxa-rJ-xtJ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fmT-9F-7jf"/>
                             <constraint firstItem="WNB-6i-cRk" firstAttribute="top" secondItem="ca9-41-jsP" secondAttribute="bottom" constant="40" id="ltc-wH-pQT"/>
                             <constraint firstItem="WNB-6i-cRk" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="nRb-aE-fME"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Cxa-rJ-xtJ" secondAttribute="bottom" id="nnb-Nm-n5c"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="tGI-gX-eUQ" secondAttribute="bottom" id="uNU-Om-anw"/>
                             <constraint firstAttribute="trailing" secondItem="ca9-41-jsP" secondAttribute="trailing" id="un5-66-Z0M"/>
                             <constraint firstItem="tGI-gX-eUQ" firstAttribute="top" secondItem="WNB-6i-cRk" secondAttribute="top" id="wgO-cl-5Fu"/>
