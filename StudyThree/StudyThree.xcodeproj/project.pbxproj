@@ -12,6 +12,7 @@
 		2F9FE1781DE2D2B6002D0FDE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F9FE1761DE2D2B6002D0FDE /* Main.storyboard */; };
 		2F9FE17A1DE2D2B6002D0FDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F9FE1791DE2D2B6002D0FDE /* Assets.xcassets */; };
 		2F9FE17D1DE2D2B6002D0FDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F9FE17B1DE2D2B6002D0FDE /* LaunchScreen.storyboard */; };
+		2F9FE1851DE2D4ED002D0FDE /* emoji zone.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 2F9FE1841DE2D4ED002D0FDE /* emoji zone.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		2F9FE1791DE2D2B6002D0FDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F9FE17C1DE2D2B6002D0FDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2F9FE17E1DE2D2B6002D0FDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F9FE1841DE2D4ED002D0FDE /* emoji zone.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "emoji zone.mp4"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		2F9FE1711DE2D2B6002D0FDE /* StudyThree */ = {
 			isa = PBXGroup;
 			children = (
+				2F9FE1841DE2D4ED002D0FDE /* emoji zone.mp4 */,
 				2F9FE1721DE2D2B6002D0FDE /* AppDelegate.swift */,
 				2F9FE1741DE2D2B6002D0FDE /* ViewController.swift */,
 				2F9FE1761DE2D2B6002D0FDE /* Main.storyboard */,
@@ -125,6 +128,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F9FE17D1DE2D2B6002D0FDE /* LaunchScreen.storyboard in Resources */,
+				2F9FE1851DE2D4ED002D0FDE /* emoji zone.mp4 in Resources */,
 				2F9FE17A1DE2D2B6002D0FDE /* Assets.xcassets in Resources */,
 				2F9FE1781DE2D2B6002D0FDE /* Main.storyboard in Resources */,
 			);
@@ -261,6 +265,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 95N79HJV5B;
 				INFOPLIST_FILE = StudyThree/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = fukai.StudyThree;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -274,6 +279,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 95N79HJV5B;
 				INFOPLIST_FILE = StudyThree/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = fukai.StudyThree;
 				PRODUCT_NAME = "$(TARGET_NAME)";
