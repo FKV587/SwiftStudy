@@ -1,14 +1,18 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="StudyFive" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -16,11 +20,38 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ICO_IMAGE1" translatesAutoresizingMaskIntoConstraints="NO" id="Gpg-w4-ZoM">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="902-7R-lfu" customClass="UIVisualEffectView">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="902-7R-lfu" secondAttribute="trailing" id="9cX-ay-A4X"/>
+                            <constraint firstItem="902-7R-lfu" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="PEh-v0-lc4"/>
+                            <constraint firstAttribute="trailing" secondItem="Gpg-w4-ZoM" secondAttribute="trailing" id="RCK-KO-Wk3"/>
+                            <constraint firstItem="902-7R-lfu" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="RH1-ts-2Hy"/>
+                            <constraint firstItem="Gpg-w4-ZoM" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="aWc-Ag-OTm"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="902-7R-lfu" secondAttribute="bottom" id="fzW-4T-aje"/>
+                            <constraint firstItem="Gpg-w4-ZoM" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="nsQ-4d-Sc3"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Gpg-w4-ZoM" secondAttribute="bottom" id="plM-BU-Z5F"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="icon_image" destination="Gpg-w4-ZoM" id="luh-0U-dQH"/>
+                        <outlet property="visualeffectView" destination="902-7R-lfu" id="mkj-RS-OR3"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="120.8" y="19.340329835082461"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="ICO_IMAGE1" width="375" height="667"/>
+    </resources>
 </document>
