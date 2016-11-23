@@ -12,6 +12,8 @@
 		2F6C11CD1DE53E53003C067E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F6C11CB1DE53E53003C067E /* Main.storyboard */; };
 		2F6C11CF1DE53E53003C067E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F6C11CE1DE53E53003C067E /* Assets.xcassets */; };
 		2F6C11D21DE53E53003C067E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F6C11D01DE53E53003C067E /* LaunchScreen.storyboard */; };
+		2F6C11DB1DE541AC003C067E /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F6C11D91DE541AC003C067E /* CameraViewController.swift */; };
+		2F6C11DC1DE541AD003C067E /* CameraViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F6C11DA1DE541AC003C067E /* CameraViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		2F6C11CE1DE53E53003C067E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F6C11D11DE53E53003C067E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2F6C11D31DE53E53003C067E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F6C11D91DE541AC003C067E /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		2F6C11DA1DE541AC003C067E /* CameraViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CameraViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				2F6C11CE1DE53E53003C067E /* Assets.xcassets */,
 				2F6C11D01DE53E53003C067E /* LaunchScreen.storyboard */,
 				2F6C11D31DE53E53003C067E /* Info.plist */,
+				2F6C11D91DE541AC003C067E /* CameraViewController.swift */,
+				2F6C11DA1DE541AC003C067E /* CameraViewController.xib */,
 			);
 			path = StudyFour;
 			sourceTree = "<group>";
@@ -125,6 +131,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F6C11D21DE53E53003C067E /* LaunchScreen.storyboard in Resources */,
+				2F6C11DC1DE541AD003C067E /* CameraViewController.xib in Resources */,
 				2F6C11CF1DE53E53003C067E /* Assets.xcassets in Resources */,
 				2F6C11CD1DE53E53003C067E /* Main.storyboard in Resources */,
 			);
@@ -139,6 +146,7 @@
 			files = (
 				2F6C11CA1DE53E53003C067E /* ViewController.swift in Sources */,
 				2F6C11C81DE53E53003C067E /* AppDelegate.swift in Sources */,
+				2F6C11DB1DE541AC003C067E /* CameraViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
